@@ -67,21 +67,21 @@ cd api-agendamento-fastapi
 ```
 ---
 
-#   crie e ative o ambiete virtual#
+##   Crie e ative o ambiete virtual
 
 ```bash
 python -m venv venv 
-venv/Scripts/activate *#windows#*
+venv/Scripts/activate *windows*
 ```
 ---
 
-*#instale as dependências#* 
+*instale as dependências* 
 ```bash    
 pip install -r requirements.txt
 ```
 ---
 
-*#Execute a aplicação#*
+*Execute a aplicação*
 ```bash 
 uvicorn main:app --reload
 ```
@@ -91,7 +91,7 @@ uvicorn main:app --reload
 ##  Objetivo do projeto
 
 ```text
-Este projeto faz parte do meu processo de transição e consolidação na área de Backend Developer,
+Este projeto faz parte do meu processo de aprendizagem e consolidação na área de Backend Developer,
 com foco em boas práticas, organização de código e entendimento de regras de negócio.
 ```
 
@@ -100,7 +100,7 @@ com foco em boas práticas, organização de código e entendimento de regras de
 ##  Autor
 
 ```text
-Marcos
+Marcos Brasil F.Lotti
 Estudante de Backend | Python | FastAPI
 GitHub: https://github.com/marcosbflotti    
 ``` 
