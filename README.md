@@ -56,13 +56,52 @@ api_agendamento/
 │   └── fake_db.py
 ├── requirements.txt
 └── README.md
+```
+---
+
+##  Como executar o projeto
+ 
+```bash
+git clone https://github.com/marcosbflotti/api-agendamento-fastapi.git  
+cd api-agendamento-fastapi      
+```
+---
+
+#   crie e ative o ambiete virtual#
+
+```bash
+python -m venv venv 
+venv/Scripts/activate *#windows#*
+```
+---
+
+*#instale as dependências#* 
+```bash    
+pip install -r requirements.txt
+```
+---
+
+*#Execute a aplicação#*
+```bash 
+uvicorn main:app --reload
+```
+
+--- 
+
+##  Objetivo do projeto
+
+```text
+Este projeto faz parte do meu processo de transição e consolidação na área de Backend Developer,
+com foco em boas práticas, organização de código e entendimento de regras de negócio.
+```
 
 ---
 
-## Como executar o projeto
+##  Autor
 
-```bash
-python -m venv venv
-source venv/bin/activate  venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn main:app --reload
+```text
+Marcos
+Estudante de Backend | Python | FastAPI
+GitHub: https://github.com/marcosbflotti    
+``` 
+---
